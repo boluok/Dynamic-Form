@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EEB8AAF23635E10009CDCD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8AAE23635E10009CDCD9 /* AppDelegate.swift */; };
+		1EEB8AB123635E10009CDCD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8AB023635E10009CDCD9 /* SceneDelegate.swift */; };
+		1EEB8AB323635E10009CDCD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8AB223635E10009CDCD9 /* ViewController.swift */; };
+		1EEB8AB623635E10009CDCD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EEB8AB423635E10009CDCD9 /* Main.storyboard */; };
+		1EEB8AB823635E14009CDCD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EEB8AB723635E14009CDCD9 /* Assets.xcassets */; };
+		1EEB8ABB23635E14009CDCD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EEB8AB923635E14009CDCD9 /* LaunchScreen.storyboard */; };
+		1EEB8AC623635E14009CDCD9 /* Dynamic_FormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8AC523635E14009CDCD9 /* Dynamic_FormTests.swift */; };
+		1EEB8AD123635E14009CDCD9 /* Dynamic_FormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8AD023635E14009CDCD9 /* Dynamic_FormUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EEB8AC223635E14009CDCD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EEB8AA323635E10009CDCD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EEB8AAA23635E10009CDCD9;
+			remoteInfo = "Dynamic Form";
+		};
+		1EEB8ACD23635E14009CDCD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EEB8AA323635E10009CDCD9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EEB8AAA23635E10009CDCD9;
+			remoteInfo = "Dynamic Form";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EEB8AAB23635E10009CDCD9 /* Dynamic Form.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dynamic Form.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EEB8AAE23635E10009CDCD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EEB8AB023635E10009CDCD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1EEB8AB223635E10009CDCD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EEB8AB523635E10009CDCD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EEB8AB723635E14009CDCD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EEB8ABA23635E14009CDCD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EEB8ABC23635E14009CDCD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EEB8AC123635E14009CDCD9 /* Dynamic FormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamic FormTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EEB8AC523635E14009CDCD9 /* Dynamic_FormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic_FormTests.swift; sourceTree = "<group>"; };
+		1EEB8AC723635E14009CDCD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EEB8ACC23635E14009CDCD9 /* Dynamic FormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamic FormUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EEB8AD023635E14009CDCD9 /* Dynamic_FormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic_FormUITests.swift; sourceTree = "<group>"; };
+		1EEB8AD223635E14009CDCD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EEB8AA823635E10009CDCD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EEB8ABE23635E14009CDCD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EEB8AC923635E14009CDCD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EEB8AA223635E10009CDCD9 = {
+			isa = PBXGroup;
+			children = (
+				1EEB8AAD23635E10009CDCD9 /* Dynamic Form */,
+				1EEB8AC423635E14009CDCD9 /* Dynamic FormTests */,
+				1EEB8ACF23635E14009CDCD9 /* Dynamic FormUITests */,
+				1EEB8AAC23635E10009CDCD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EEB8AAC23635E10009CDCD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EEB8AAB23635E10009CDCD9 /* Dynamic Form.app */,
+				1EEB8AC123635E14009CDCD9 /* Dynamic FormTests.xctest */,
+				1EEB8ACC23635E14009CDCD9 /* Dynamic FormUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EEB8AAD23635E10009CDCD9 /* Dynamic Form */ = {
+			isa = PBXGroup;
+			children = (
+				1EEB8AAE23635E10009CDCD9 /* AppDelegate.swift */,
+				1EEB8AB023635E10009CDCD9 /* SceneDelegate.swift */,
+				1EEB8AB223635E10009CDCD9 /* ViewController.swift */,
+				1EEB8AB423635E10009CDCD9 /* Main.storyboard */,
+				1EEB8AB723635E14009CDCD9 /* Assets.xcassets */,
+				1EEB8AB923635E14009CDCD9 /* LaunchScreen.storyboard */,
+				1EEB8ABC23635E14009CDCD9 /* Info.plist */,
+			);
+			path = "Dynamic Form";
+			sourceTree = "<group>";
+		};
+		1EEB8AC423635E14009CDCD9 /* Dynamic FormTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EEB8AC523635E14009CDCD9 /* Dynamic_FormTests.swift */,
+				1EEB8AC723635E14009CDCD9 /* Info.plist */,
+			);
+			path = "Dynamic FormTests";
+			sourceTree = "<group>";
+		};
+		1EEB8ACF23635E14009CDCD9 /* Dynamic FormUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EEB8AD023635E14009CDCD9 /* Dynamic_FormUITests.swift */,
+				1EEB8AD223635E14009CDCD9 /* Info.plist */,
+			);
+			path = "Dynamic FormUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EEB8AAA23635E10009CDCD9 /* Dynamic Form */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EEB8AD523635E14009CDCD9 /* Build configuration list for PBXNativeTarget "Dynamic Form" */;
+			buildPhases = (
+				1EEB8AA723635E10009CDCD9 /* Sources */,
+				1EEB8AA823635E10009CDCD9 /* Frameworks */,
+				1EEB8AA923635E10009CDCD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dynamic Form";
+			productName = "Dynamic Form";
+			productReference = 1EEB8AAB23635E10009CDCD9 /* Dynamic Form.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EEB8AC023635E14009CDCD9 /* Dynamic FormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EEB8AD823635E14009CDCD9 /* Build configuration list for PBXNativeTarget "Dynamic FormTests" */;
+			buildPhases = (
+				1EEB8ABD23635E14009CDCD9 /* Sources */,
+				1EEB8ABE23635E14009CDCD9 /* Frameworks */,
+				1EEB8ABF23635E14009CDCD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EEB8AC323635E14009CDCD9 /* PBXTargetDependency */,
+			);
+			name = "Dynamic FormTests";
+			productName = "Dynamic FormTests";
+			productReference = 1EEB8AC123635E14009CDCD9 /* Dynamic FormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EEB8ACB23635E14009CDCD9 /* Dynamic FormUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EEB8ADB23635E14009CDCD9 /* Build configuration list for PBXNativeTarget "Dynamic FormUITests" */;
+			buildPhases = (
+				1EEB8AC823635E14009CDCD9 /* Sources */,
+				1EEB8AC923635E14009CDCD9 /* Frameworks */,
+				1EEB8ACA23635E14009CDCD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EEB8ACE23635E14009CDCD9 /* PBXTargetDependency */,
+			);
+			name = "Dynamic FormUITests";
+			productName = "Dynamic FormUITests";
+			productReference = 1EEB8ACC23635E14009CDCD9 /* Dynamic FormUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EEB8AA323635E10009CDCD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Bolu Okunaiya";
+				TargetAttributes = {
+					1EEB8AAA23635E10009CDCD9 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					1EEB8AC023635E14009CDCD9 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 1EEB8AAA23635E10009CDCD9;
+					};
+					1EEB8ACB23635E14009CDCD9 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 1EEB8AAA23635E10009CDCD9;
+					};
+				};
+			};
+			buildConfigurationList = 1EEB8AA623635E10009CDCD9 /* Build configuration list for PBXProject "Dynamic Form" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EEB8AA223635E10009CDCD9;
+			productRefGroup = 1EEB8AAC23635E10009CDCD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EEB8AAA23635E10009CDCD9 /* Dynamic Form */,
+				1EEB8AC023635E14009CDCD9 /* Dynamic FormTests */,
+				1EEB8ACB23635E14009CDCD9 /* Dynamic FormUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EEB8AA923635E10009CDCD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EEB8ABB23635E14009CDCD9 /* LaunchScreen.storyboard in Resources */,
+				1EEB8AB823635E14009CDCD9 /* Assets.xcassets in Resources */,
+				1EEB8AB623635E10009CDCD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EEB8ABF23635E14009CDCD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EEB8ACA23635E14009CDCD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EEB8AA723635E10009CDCD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EEB8AB323635E10009CDCD9 /* ViewController.swift in Sources */,
+				1EEB8AAF23635E10009CDCD9 /* AppDelegate.swift in Sources */,
+				1EEB8AB123635E10009CDCD9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EEB8ABD23635E14009CDCD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EEB8AC623635E14009CDCD9 /* Dynamic_FormTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EEB8AC823635E14009CDCD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EEB8AD123635E14009CDCD9 /* Dynamic_FormUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EEB8AC323635E14009CDCD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EEB8AAA23635E10009CDCD9 /* Dynamic Form */;
+			targetProxy = 1EEB8AC223635E14009CDCD9 /* PBXContainerItemProxy */;
+		};
+		1EEB8ACE23635E14009CDCD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EEB8AAA23635E10009CDCD9 /* Dynamic Form */;
+			targetProxy = 1EEB8ACD23635E14009CDCD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EEB8AB423635E10009CDCD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EEB8AB523635E10009CDCD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EEB8AB923635E14009CDCD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EEB8ABA23635E14009CDCD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EEB8AD323635E14009CDCD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EEB8AD423635E14009CDCD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EEB8AD623635E14009CDCD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dynamic Form/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Dynamic-Form";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EEB8AD723635E14009CDCD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dynamic Form/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Dynamic-Form";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1EEB8AD923635E14009CDCD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dynamic FormTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Dynamic-FormTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dynamic Form.app/Dynamic Form";
+			};
+			name = Debug;
+		};
+		1EEB8ADA23635E14009CDCD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dynamic FormTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Dynamic-FormTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dynamic Form.app/Dynamic Form";
+			};
+			name = Release;
+		};
+		1EEB8ADC23635E14009CDCD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dynamic FormUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Dynamic-FormUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dynamic Form";
+			};
+			name = Debug;
+		};
+		1EEB8ADD23635E14009CDCD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Dynamic FormUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.Dynamic-FormUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dynamic Form";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EEB8AA623635E10009CDCD9 /* Build configuration list for PBXProject "Dynamic Form" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EEB8AD323635E14009CDCD9 /* Debug */,
+				1EEB8AD423635E14009CDCD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EEB8AD523635E14009CDCD9 /* Build configuration list for PBXNativeTarget "Dynamic Form" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EEB8AD623635E14009CDCD9 /* Debug */,
+				1EEB8AD723635E14009CDCD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EEB8AD823635E14009CDCD9 /* Build configuration list for PBXNativeTarget "Dynamic FormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EEB8AD923635E14009CDCD9 /* Debug */,
+				1EEB8ADA23635E14009CDCD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EEB8ADB23635E14009CDCD9 /* Build configuration list for PBXNativeTarget "Dynamic FormUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EEB8ADC23635E14009CDCD9 /* Debug */,
+				1EEB8ADD23635E14009CDCD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EEB8AA323635E10009CDCD9 /* Project object */;
+}
