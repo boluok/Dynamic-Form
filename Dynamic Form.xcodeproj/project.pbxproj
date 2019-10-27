@@ -9,12 +9,28 @@
 /* Begin PBXBuildFile section */
 		1EEB8AAF23635E10009CDCD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8AAE23635E10009CDCD9 /* AppDelegate.swift */; };
 		1EEB8AB123635E10009CDCD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8AB023635E10009CDCD9 /* SceneDelegate.swift */; };
-		1EEB8AB323635E10009CDCD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8AB223635E10009CDCD9 /* ViewController.swift */; };
-		1EEB8AB623635E10009CDCD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EEB8AB423635E10009CDCD9 /* Main.storyboard */; };
+		1EEB8AB323635E10009CDCD9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8AB223635E10009CDCD9 /* MainViewController.swift */; };
 		1EEB8AB823635E14009CDCD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EEB8AB723635E14009CDCD9 /* Assets.xcassets */; };
 		1EEB8ABB23635E14009CDCD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EEB8AB923635E14009CDCD9 /* LaunchScreen.storyboard */; };
 		1EEB8AC623635E14009CDCD9 /* Dynamic_FormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8AC523635E14009CDCD9 /* Dynamic_FormTests.swift */; };
 		1EEB8AD123635E14009CDCD9 /* Dynamic_FormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8AD023635E14009CDCD9 /* Dynamic_FormUITests.swift */; };
+		1EEB8AE223635E95009CDCD9 /* Rule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8AE123635E95009CDCD9 /* Rule.swift */; };
+		1EEB8AE423635EB1009CDCD9 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8AE323635EB1009CDCD9 /* Element.swift */; };
+		1EEB8AE623635EE3009CDCD9 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8AE523635EE3009CDCD9 /* Section.swift */; };
+		1EEB8AE823635EF4009CDCD9 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8AE723635EF4009CDCD9 /* Page.swift */; };
+		1EEB8AEA23635F05009CDCD9 /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8AE923635F05009CDCD9 /* Form.swift */; };
+		1EEB8AED23635FA3009CDCD9 /* pet_adoption.json in Resources */ = {isa = PBXBuildFile; fileRef = 1EEB8AEC23635FA3009CDCD9 /* pet_adoption.json */; };
+		1EEB8AEF23635FD1009CDCD9 /* FormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8AEE23635FD1009CDCD9 /* FormViewModel.swift */; };
+		1EEB8AF123636005009CDCD9 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8AF023636005009CDCD9 /* BaseViewModel.swift */; };
+		1EEB8AF323637229009CDCD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EEB8AF223637229009CDCD9 /* Main.storyboard */; };
+		1EEB8AF523638B00009CDCD9 /* FormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8AF423638B00009CDCD9 /* FormData.swift */; };
+		1EEB8AF82363F3B3009CDCD9 /* EmbeddedPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EEB8AF72363F3B3009CDCD9 /* EmbeddedPhotoCell.xib */; };
+		1EEB8AFA2363F47A009CDCD9 /* EmbeddedPhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8AF92363F47A009CDCD9 /* EmbeddedPhotoCell.swift */; };
+		1EEB8AFC2363F680009CDCD9 /* ImageViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8AFB2363F680009CDCD9 /* ImageViewExtention.swift */; };
+		1EEB8AFE2363FB6E009CDCD9 /* TextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EEB8AFD2363FB6E009CDCD9 /* TextCell.xib */; };
+		1EEB8B002363FBD7009CDCD9 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8AFF2363FBD7009CDCD9 /* TextCell.swift */; };
+		1EEB8B0423640726009CDCD9 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EEB8B0323640726009CDCD9 /* ButtonCell.xib */; };
+		1EEB8B0623640796009CDCD9 /* ButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEB8B0523640796009CDCD9 /* ButtonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +54,7 @@
 		1EEB8AAB23635E10009CDCD9 /* Dynamic Form.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dynamic Form.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EEB8AAE23635E10009CDCD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1EEB8AB023635E10009CDCD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1EEB8AB223635E10009CDCD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1EEB8AB523635E10009CDCD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EEB8AB223635E10009CDCD9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1EEB8AB723635E14009CDCD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EEB8ABA23635E14009CDCD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1EEB8ABC23635E14009CDCD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +64,23 @@
 		1EEB8ACC23635E14009CDCD9 /* Dynamic FormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dynamic FormUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EEB8AD023635E14009CDCD9 /* Dynamic_FormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic_FormUITests.swift; sourceTree = "<group>"; };
 		1EEB8AD223635E14009CDCD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EEB8AE123635E95009CDCD9 /* Rule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rule.swift; sourceTree = "<group>"; };
+		1EEB8AE323635EB1009CDCD9 /* Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		1EEB8AE523635EE3009CDCD9 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		1EEB8AE723635EF4009CDCD9 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		1EEB8AE923635F05009CDCD9 /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		1EEB8AEC23635FA3009CDCD9 /* pet_adoption.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = pet_adoption.json; path = ../../../../../Downloads/pet_adoption.json; sourceTree = "<group>"; };
+		1EEB8AEE23635FD1009CDCD9 /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
+		1EEB8AF023636005009CDCD9 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		1EEB8AF223637229009CDCD9 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1EEB8AF423638B00009CDCD9 /* FormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormData.swift; sourceTree = "<group>"; };
+		1EEB8AF72363F3B3009CDCD9 /* EmbeddedPhotoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmbeddedPhotoCell.xib; sourceTree = "<group>"; };
+		1EEB8AF92363F47A009CDCD9 /* EmbeddedPhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedPhotoCell.swift; sourceTree = "<group>"; };
+		1EEB8AFB2363F680009CDCD9 /* ImageViewExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtention.swift; sourceTree = "<group>"; };
+		1EEB8AFD2363FB6E009CDCD9 /* TextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextCell.xib; sourceTree = "<group>"; };
+		1EEB8AFF2363FBD7009CDCD9 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		1EEB8B0323640726009CDCD9 /* ButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonCell.xib; sourceTree = "<group>"; };
+		1EEB8B0523640796009CDCD9 /* ButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +131,19 @@
 		1EEB8AAD23635E10009CDCD9 /* Dynamic Form */ = {
 			isa = PBXGroup;
 			children = (
+				1EEB8AF62363F373009CDCD9 /* Cells */,
+				1EEB8AEB23635F77009CDCD9 /* Dynamic Form Json */,
+				1EEB8AE023635E62009CDCD9 /* View Model */,
+				1EEB8ADF23635E59009CDCD9 /* Views */,
+				1EEB8ADE23635E31009CDCD9 /* Models */,
 				1EEB8AAE23635E10009CDCD9 /* AppDelegate.swift */,
 				1EEB8AB023635E10009CDCD9 /* SceneDelegate.swift */,
-				1EEB8AB223635E10009CDCD9 /* ViewController.swift */,
-				1EEB8AB423635E10009CDCD9 /* Main.storyboard */,
+				1EEB8AB223635E10009CDCD9 /* MainViewController.swift */,
 				1EEB8AB723635E14009CDCD9 /* Assets.xcassets */,
 				1EEB8AB923635E14009CDCD9 /* LaunchScreen.storyboard */,
 				1EEB8ABC23635E14009CDCD9 /* Info.plist */,
+				1EEB8AF223637229009CDCD9 /* Main.storyboard */,
+				1EEB8AFB2363F680009CDCD9 /* ImageViewExtention.swift */,
 			);
 			path = "Dynamic Form";
 			sourceTree = "<group>";
@@ -126,6 +164,56 @@
 				1EEB8AD223635E14009CDCD9 /* Info.plist */,
 			);
 			path = "Dynamic FormUITests";
+			sourceTree = "<group>";
+		};
+		1EEB8ADE23635E31009CDCD9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1EEB8AE123635E95009CDCD9 /* Rule.swift */,
+				1EEB8AE323635EB1009CDCD9 /* Element.swift */,
+				1EEB8AE523635EE3009CDCD9 /* Section.swift */,
+				1EEB8AE723635EF4009CDCD9 /* Page.swift */,
+				1EEB8AE923635F05009CDCD9 /* Form.swift */,
+				1EEB8AF423638B00009CDCD9 /* FormData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1EEB8ADF23635E59009CDCD9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1EEB8AE023635E62009CDCD9 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				1EEB8AEE23635FD1009CDCD9 /* FormViewModel.swift */,
+				1EEB8AF023636005009CDCD9 /* BaseViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		1EEB8AEB23635F77009CDCD9 /* Dynamic Form Json */ = {
+			isa = PBXGroup;
+			children = (
+				1EEB8AEC23635FA3009CDCD9 /* pet_adoption.json */,
+			);
+			path = "Dynamic Form Json";
+			sourceTree = "<group>";
+		};
+		1EEB8AF62363F373009CDCD9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1EEB8AF72363F3B3009CDCD9 /* EmbeddedPhotoCell.xib */,
+				1EEB8AF92363F47A009CDCD9 /* EmbeddedPhotoCell.swift */,
+				1EEB8AFD2363FB6E009CDCD9 /* TextCell.xib */,
+				1EEB8AFF2363FBD7009CDCD9 /* TextCell.swift */,
+				1EEB8B0323640726009CDCD9 /* ButtonCell.xib */,
+				1EEB8B0523640796009CDCD9 /* ButtonCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +320,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EEB8AFE2363FB6E009CDCD9 /* TextCell.xib in Resources */,
 				1EEB8ABB23635E14009CDCD9 /* LaunchScreen.storyboard in Resources */,
 				1EEB8AB823635E14009CDCD9 /* Assets.xcassets in Resources */,
-				1EEB8AB623635E10009CDCD9 /* Main.storyboard in Resources */,
+				1EEB8AED23635FA3009CDCD9 /* pet_adoption.json in Resources */,
+				1EEB8B0423640726009CDCD9 /* ButtonCell.xib in Resources */,
+				1EEB8AF82363F3B3009CDCD9 /* EmbeddedPhotoCell.xib in Resources */,
+				1EEB8AF323637229009CDCD9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,9 +351,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EEB8AB323635E10009CDCD9 /* ViewController.swift in Sources */,
+				1EEB8AB323635E10009CDCD9 /* MainViewController.swift in Sources */,
+				1EEB8AFC2363F680009CDCD9 /* ImageViewExtention.swift in Sources */,
+				1EEB8AF123636005009CDCD9 /* BaseViewModel.swift in Sources */,
+				1EEB8AFA2363F47A009CDCD9 /* EmbeddedPhotoCell.swift in Sources */,
+				1EEB8AEA23635F05009CDCD9 /* Form.swift in Sources */,
+				1EEB8AE223635E95009CDCD9 /* Rule.swift in Sources */,
+				1EEB8AF523638B00009CDCD9 /* FormData.swift in Sources */,
+				1EEB8AEF23635FD1009CDCD9 /* FormViewModel.swift in Sources */,
+				1EEB8B0623640796009CDCD9 /* ButtonCell.swift in Sources */,
 				1EEB8AAF23635E10009CDCD9 /* AppDelegate.swift in Sources */,
+				1EEB8AE623635EE3009CDCD9 /* Section.swift in Sources */,
+				1EEB8B002363FBD7009CDCD9 /* TextCell.swift in Sources */,
+				1EEB8AE823635EF4009CDCD9 /* Page.swift in Sources */,
 				1EEB8AB123635E10009CDCD9 /* SceneDelegate.swift in Sources */,
+				1EEB8AE423635EB1009CDCD9 /* Element.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +401,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1EEB8AB423635E10009CDCD9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1EEB8AB523635E10009CDCD9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1EEB8AB923635E14009CDCD9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -435,6 +531,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M24UFBMBWL;
 				INFOPLIST_FILE = "Dynamic Form/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +549,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M24UFBMBWL;
 				INFOPLIST_FILE = "Dynamic Form/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
